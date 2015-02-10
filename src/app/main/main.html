@@ -1,33 +1,347 @@
 <div class="container">
+  <div id="main-app">
+    <section id="main">
+      <section class="main-section clearfix">
+        <div class="panel-default col-xs-9">
+          <header class="main-header">
+            <div class="btn-group">
+              <div class="btn-group">
+                <button class="dropdown-toggle btn btn-default" type="button">
+                  <span>Sorted by : </span><span> </span><span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu">
+                  <li role="presentation" class=""><a href="#" tabindex="-1">title</a></li>
+                  <li role="presentation" class=""><a href="#" tabindex="-1">value</a></li>
+                  <li role="presentation" class=""><a href="#" tabindex="-1">rating</a></li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th-list"></span></button>
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th"></span></button>
+            </div>
+          </header>
+          <div class="row"><span> </span>
 
-  <div ng-include="'components/navbar/navbar.html'"></div>
+            <div id="id01" title="The Pragmatic Programmer: From Journeyman to Master " class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/tpp.jpg"
+                                               title="The Pragmatic Programmer: From Journeyman to Master "
+                                               class="constrained-h">
+                <ul>
+                  <li>The Pragmatic Programmer: Fro...</li>
+                  <li><span>By: </span><span>Andy Hunt, Dave Thomas</span></li>
+                  <li>Paperback</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:90%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(268) customer reviews</li>
+                  <li>Price : £35.79</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id02" title="Code Complete: A Practical Handbook of Software Construction"
+                 class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/cc.jpg"
+                                               title="Code Complete: A Practical Handbook of Software Construction"
+                                               class="constrained-h">
+                <ul>
+                  <li>Code Complete: A Practical Ha...</li>
+                  <li><span>By: </span><span>Steve McConnell</span></li>
+                  <li>Paperback</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:92%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(232) customer reviews</li>
+                  <li>Price : £33.34</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id03" title="The Passionate Programmer: Creating a Remarkable Career in Software Development"
+                 class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/pp.jpg"
+                                               title="The Passionate Programmer: Creating a Remarkable Career in Software Development"
+                                               class="constrained-h">
+                <ul>
+                  <li>The Passionate Programmer: Cr...</li>
+                  <li><span>By: </span><span>Chad Fowler</span></li>
+                  <li>Paperback</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:88.00000000000001%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(101) customer reviews</li>
+                  <li>Price : £16.02</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+          </div>
+          <div class="row"><span> </span>
 
-  <div class="jumbotron text-center">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">
-      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      Always a pleasure scaffolding your apps.
-    </p>
-    <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
-  </div>
+            <div id="id04" title="Design Patterns: Elements of Reusable Object-Oriented Software"
+                 class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/dp.jpg"
+                                               title="Design Patterns: Elements of Reusable Object-Oriented Software"
+                                               class="constrained-h">
+                <ul>
+                  <li>Design Patterns: Elements of ...</li>
+                  <li><span>By: </span><span>Gang of Four</span></li>
+                  <li>Hardcover</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:90%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(382) customer reviews</li>
+                  <li>Price : £45.10</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id05" title="TCP/IP Illustrated: The Implementation" class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/tcpip.jpg"
+                                               title="TCP/IP Illustrated: The Implementation" class="constrained-h">
+                <ul>
+                  <li>TCP/IP Illustrated: The Imple...</li>
+                  <li><span>By: </span><span>W. Richard Stevens</span></li>
+                  <li>Hardcover</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:80%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(119) customer reviews</li>
+                  <li>Price : £69.71</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id06" title="Introduction to Algorithms" class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/itg.jpg"
+                                               title="Introduction to Algorithms" class="constrained-h">
+                <ul>
+                  <li>Introduction to Algorithms</li>
+                  <li><span>By: </span><span>Thomas, Cormen, Charles, Leiserson</span></li>
+                  <li>Hardcover</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:86%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(193) customer reviews</li>
+                  <li>Price : £78.30</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+          </div>
+          <div class="row"><span> </span>
 
-  <div class="row">
-    <div class="col-sm-6 col-md-4" ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
-      <div class="thumbnail">
-        <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
-        <div class="caption">
-          <h3>{{awesomeThing.title}}</h3>
-          <p>{{awesomeThing.description}}</p>
-          <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p>
+            <div id="id07" title="Code: The Hidden Language of Computer Hardware and Software"
+                 class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/co.jpg"
+                                               title="Code: The Hidden Language of Computer Hardware and Software"
+                                               class="constrained-h">
+                <ul>
+                  <li>Code: The Hidden Language of ...</li>
+                  <li><span>By: </span><span>Charles petzold</span></li>
+                  <li>Paperback</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:94%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(216) customer reviews</li>
+                  <li>Price : £11.77</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id08"
+                 title="Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation"
+                 class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/cd.jpg"
+                                               title="Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation"
+                                               class="constrained-h">
+                <ul>
+                  <li>Continuous Delivery: Reliable...</li>
+                  <li><span>By: </span><span>Jez Humble , David Farley</span></li>
+                  <li>Hardcover</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:88.00000000000001%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(61) customer reviews</li>
+                  <li>Price : £42.67</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id09" title="Algorithmics: The Spirit of Computing" class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/algo.jpg"
+                                               title="Algorithmics: The Spirit of Computing" class="constrained-h">
+                <ul>
+                  <li>Algorithmics: The Spirit of C...</li>
+                  <li><span>By: </span><span> David Harel and Yishai Feldman</span></li>
+                  <li>Paperback</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:82%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(10) customer reviews</li>
+                  <li>Price : £100.00</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+          </div>
+          <div class="row"><span> </span>
+
+            <div id="id10" title="Mathematics for Computer Graphics" class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/mcg.jpg"
+                                               title="Mathematics for Computer Graphics" class="constrained-h">
+                <ul>
+                  <li>Mathematics for Computer Grap...</li>
+                  <li><span>By: </span><span>John Vince</span></li>
+                  <li>Paperback</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:76%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(4) customer reviews</li>
+                  <li>Price : £47.99</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id11" title="Introduction to Linear Algebra" class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/la.jpg"
+                                               title="Introduction to Linear Algebra" class="constrained-h">
+                <ul>
+                  <li>Introduction to Linear Algebra</li>
+                  <li><span>By: </span><span>Gilbert Strang</span></li>
+                  <li>Hardcover</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:72%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(67) customer reviews</li>
+                  <li>Price : £67.24</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+            <div id="id12" title="Data Visualization: Principles and Practice" class="col-xs-4 product-unit">
+              <div class="inner clearfix"><img src="http://localhost:9000/images/dv.jpg"
+                                               title="Data Visualization: Principles and Practice"
+                                               class="constrained-h">
+                <ul>
+                  <li>Data Visualization: Principle...</li>
+                  <li><span>By: </span><span>Alexandru C. Telea</span></li>
+                  <li>Hardcover</li>
+                  <li>
+                    <div class="star">
+                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                      <div class="mask" style="width:100%;"><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                  </li>
+                  <li>(1) customer reviews</li>
+                  <li>Price : £77.82</li>
+                </ul>
+                <button class="btn btn-success">Add to Basket</button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="kart-list">
+          <div class="well panel panel-success "><p>Subtotal (1 item)</p>
+
+            <div class="panel-heading">£35.79</div>
+          </div>
+          <div>
+            <div id="id01-basket" title="The Pragmatic Programmer: From Journeyman to Master "
+                 class="product-item fade-in"><span class="close glyphicon glyphicon-remove-circle"
+                                                    title="Remove all"></span>
+              <ul>
+                <li>Price : £35.79</li>
+                <li>(1) The Pragmatic Programmer: From Journeyman to Master</li>
+              </ul>
+              <a class="btn-link-custom" title="Remove one">Remove item</a></div>
+          </div>
+          <button class="btn btn-warning col-xs-12 "><span class="glyphicon glyphicon-shopping-cart"> </span><span>&nbsp; Proceed to checkout</span>
+          </button>
+          <div><span></span></div>
+        </div>
+      </section>
+      <footer class="footer panel-footer"><p>Conditions of Use &amp; SalePrivacy NoticeCookies &amp; Internet
+        Advertising © 2015</p></footer>
+    </section>
   </div>
-
-  <hr>
-
-  <div class="footer">
-    <p>With ♥ from <a href="https://twitter.com/Swiip">@Swiip</a></p>
-  </div>
-
 </div>
