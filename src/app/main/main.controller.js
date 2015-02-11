@@ -33,3 +33,32 @@ angular.module('koolkartAngularjs')
       $scope.render();
     })
   });
+
+
+angular.module('koolkartAngularjs').directive('kkRating', function() {
+  return {
+    restrict: 'E',
+    scope: {},
+    link: function(scope, element, attr) {
+      var rating = Number(attr['score']) / 5 * 100;
+      scope.perScore = rating;
+    },
+    template: '<div class="star">' +
+    '<div class="mask-bg">' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '</div>' +
+    '<div class="mask" style="width:{{perScore}}%;">' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '<span class="glyphicon glyphicon-star"></span>' +
+    '</div>' +
+    '</div>'
+  }
+
+});

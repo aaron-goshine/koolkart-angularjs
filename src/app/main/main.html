@@ -24,27 +24,19 @@
           </header>
 
           <!---->
-
           <div class="row" ng-repeat="row in products">
-            <div ng-repeat="item in row" id="{{item.id}}" title="{{item.title}}" class="col-xs-4 product-unit">
+            <div ng-repeat="item in row" id="{{::item.id}}" title="{{::item.title}}" class="col-xs-4 product-unit">
               <div class="panel inner  clearfix ">
-                <img src="{{item.image}}" title="{{item.title}}" class="constrained-h">
+                <img src="{{::item.image}}" title="{{::item.title}}" class="constrained-h">
                 <ul>
-                  <li>{{item.title}}</li>
-                  <li><span>By: </span><span>{{item.authors}}</span></li>
+                  <li>{{::item.title}}</li>
+                  <li><span>By: </span><span>{{::item.authors}}</span></li>
                   <li>Paperback</li>
                   <li>
-                    <div class="star">
-                      <div class="mask-bg"><span class="glyphicon glyphicon-star"></span><span
-                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
-                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
-                      <div class="mask" style="width:90%;"><span class="glyphicon glyphicon-star"></span><span
-                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
-                        class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
-                    </div>
+                    <kk-Rating score="{{::item.rating}}"></kk-Rating>
                   </li>
-                  <li>({{item.ratings}}) customer reviews</li>
-                  <li>Price : £{{item.value}}</li>
+                  <li>({{::item.ratings}}) customer reviews</li>
+                  <li>Price : £{{::item.value}}</li>
                 </ul>
                 <button class="btn btn-success" ng-click="addToBasket">Add to Basket</button>
               </div>
