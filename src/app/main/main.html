@@ -15,8 +15,11 @@
                   <li role="presentation" class=""><a href="#" tabindex="-1">rating</a></li>
                 </ul>
               </div>
-              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th-list"></span></button>
-              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th"></span></button>
+
+              <button ng-click="changeView('LIST_VIEW')" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-th-list"></span></button>
+              <button ng-click="changeView('TABLE_VIEW')" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-th"></span></button>
             </div>
           </header>
 
