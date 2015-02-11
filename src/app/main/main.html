@@ -29,7 +29,7 @@
               <div class="panel inner  clearfix ">
                 <img src="{{::item.image}}" title="{{::item.title}}" class="constrained-h">
                 <ul>
-                  <li>{{::item.title}}</li>
+                  <li>{{::item.title | truncate:32}}</li>
                   <li><span>By: </span><span>{{::item.authors}}</span></li>
                   <li>Paperback</li>
                   <li>
